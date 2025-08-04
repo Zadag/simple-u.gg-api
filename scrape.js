@@ -209,6 +209,7 @@ async function scrapeUGGChampions() {
                   name: championName,
                   winrate: winrate,
                   counters: counters,
+                  buildLink: href,
                 });
               }
             } catch (error) {
